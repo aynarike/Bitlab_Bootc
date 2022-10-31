@@ -1,0 +1,23 @@
+package Massiv;
+
+import java.util.Scanner;
+
+public class Main_20 {
+    public static void main(String[]args){
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int[] nums = new int[n];
+        int max = Integer.MIN_VALUE;
+        int index = 0;
+        for (int i = 0; i< nums.length; i++){
+            nums[i]= in.nextInt();
+        }
+        for (int i = 0; i< nums.length; i++){
+            if (nums[i]>max){
+                max = nums[i];
+                index = i;
+            }
+        }
+        System.out.print(max + " - " + index);
+    }
+}
