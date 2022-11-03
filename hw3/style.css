@@ -1,0 +1,99 @@
+.headline{
+    display: flex;
+    background-color: #14247C;
+    width: 100%;
+}
+.Front-head1{
+    color: white;
+    width: 75%;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+.Front-head2 button{
+    background-color: #14247C;
+    border: none;
+    color: white;
+}
+.Front-head2{
+    width: 25%;
+    margin-top: 17px;
+    font-size: 16px;
+    margin-left: 200px;
+}
+.conteiner{
+    display: flex;
+    margin-top: 20px;
+}
+.conteiner1{
+    margin-left: 40px;
+    width: 20%;
+    font-size: 14px;
+    margin-top: 7px;
+}
+.conteiner1 button{
+    font-size: 10px;
+    background-color: #006500;
+    color: white;
+    border-color: #006500;
+    border-radius: 3px;
+    padding: 3px;
+}
+.conteiner1 a{
+    color: #0a1c82;
+    font-weight: 600;
+    text-decoration: none;
+}
+.conteiner2{
+    width: 50%;
+}
+.conteiner2 img{
+    width: 95%;
+    height: 190px;
+}
+.conteiner2 h3{
+    color: #0a1c82;
+}
+.conteiner2 a{
+    color: #0a1c82;
+    font-weight: 400;
+    text-decoration: none;
+}
+.conteiner3{
+    width: 30%;
+}
+.conteiner3{
+    margin-top: 25px;
+}
+td {
+    border: 1px solid black;
+}
+tr:first-child {
+    font-weight: bold; 
+    background: black; 
+    color: white;
+}
+tr:nth-child(-n+5){
+    font-weight: bold;
+    background-color: rgb(64, 211, 64);
+    color: white;
+}
+tr:first-child {
+    font-weight: bold; 
+    background: black; 
+    color: white;
+}
+tr:nth-child(2){
+    font-weight: bold;
+    background: green;
+    color: white;
+}
+tr:nth-child(n+6){
+    font-weight: bold;
+    background-color: gray;
+    color: white;
+}
+tr:nth-child(n+19){
+    background-color:rgb(231, 143, 157);
+    color: white;
+}
